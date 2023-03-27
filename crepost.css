@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(img/background.jpg)no-repeat;
+    background-size: 1920px 800px;  
+    background-position: right 0px top -100px;
+}
+
+.h1 {
+    position: absolute;
+    right: 37%;
+    bottom: 20%;
+    font-size: 50px;
+    font-family: Franklin Gothic Medium;
+}
+
+.p {
+    position: absolute;
+    right: 10%;
+    bottom: 13%;
+    font-size: 25px;
+    font-family: Franklin Gothic Medium;
+}
+
+#map {
+    position: absolute;
+    right: 41%;
+    bottom: -110px;
+    width: 350px;
+    height: 230px;
+}
+
+#video {
+    position: absolute;
+    right: 27%;
+    bottom: -600px;
+    width: 854px;
+    height: 480px;
+}
+
+#header {
+    position: absolute;
+    bottom: -700px;
+    border-bottom: 1px solid red;
+    top: 1600px;
+    z-index: -5;
+
+     left: 50%; 
+    transform: translateX(-50%); 
+    transition: .3s all;
+    width: 100%;
+    font-family: cursive;
+}
+
+#ul {
+    background-color: #000000;
+    height: 100px;
+}
+
+#h2 {
+    position: relative;
+    top: -30px;
+}
+
+a {
+    color: rgb(47, 0, 255);
+    transition: color 0.3s linear; 
+}
+
+a:hover {
+    color: #ff0000;
+}

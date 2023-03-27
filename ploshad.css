@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(img/ploshad1.jpg)no-repeat;
+    background-size: 1920px 1000px;  
+    background-position: right 0px top -300px;
+}
+
+.h1 {
+    position: absolute;
+    right: 37%;
+    bottom: 20%;
+    font-size: 50px;
+    font-family: Franklin Gothic Medium;
+}
+
+.p {
+    position: absolute;
+    right: 100px;
+    bottom: 8%;
+    font-size: 25px;
+    font-family: Franklin Gothic Medium;
+}
+
+#map {
+    position: absolute;
+    right: 41%;
+    bottom: -300px;
+    width: 400px;
+    height: 300px;
+}
+
+#header {
+    position: absolute;
+    bottom: -400px;
+    top: 1300px;
+    z-index: -5;
+
+     left: 50%; 
+    transform: translateX(-50%); 
+    transition: .3s all;
+    width: 100%;
+    font-family: cursive;
+}
+
+#ul {
+    background-color: #000000;
+    height: 100px;
+}
+
+#h2 {
+    position: relative;
+    top: -30px;
+}
+
+a {
+    color: rgb(0, 174, 255);
+    transition: color 0.3s linear; 
+}
+
+a:hover {
+    color: #ff0000;
+}
