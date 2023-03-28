@@ -45,8 +45,7 @@ body {
 #header {
     position: absolute;
     bottom: -700px;
-    border-bottom: 1px solid red;
-    top: 1650px;
+    top: 1790px;
     z-index: -5;
 
      left: 50%; 
