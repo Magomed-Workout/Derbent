@@ -66,7 +66,8 @@ body {
 #header {
     position: absolute;
     bottom: -500px;
-    top: 1500px;
+    border-bottom: 1px solid red;
+    top: 1450px;
     z-index: -5;
 
      left: 50%; 
@@ -84,4 +85,94 @@ body {
 #h2 {
     position: relative;
     top: -30px;
+}
+
+@media screen and (max-width: 1600px) {
+    #h1 {
+        bottom: 565px;
+        right: 633px;
+    }
+    .h1 {
+        right: 600px;
+        bottom: 160px;
+    }
+    .p {
+        bottom: 70px;
+    }
+    #par {
+        bottom: 13px;
+    }
+    .video {
+        right: 23%;
+        bottom: -500px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .p {
+        bottom: 50px;
+        padding-right: 11%;
+    }
+    #par {
+        bottom: -7px;
+    }
+    .video {
+        right: 20%;
+        bottom: -510px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #h1 {
+        bottom: 435px;
+        right: 545px;
+    }
+    .h1 {
+        right: 505px;
+        bottom: 54px;
+    }
+    .p {
+        bottom: -80px;
+    }
+    #par {
+        bottom: -160px;
+    }
+    .video {
+        right: 15%;
+        bottom: -650px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #h1 {
+        right: 375px;
+    }
+    .h1 {
+        right: 360px;
+        bottom: 45px;
+    }
+    .p {
+        bottom: -155px;
+    }
+    #par {
+        bottom: -270px;
+    }
+    .video {
+        width: 700px;
+        height: 400px;
+        right: 12%;
+        bottom: -676px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
