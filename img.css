@@ -734,126 +734,6 @@ div.container5 {
     transition-delay: 0.2s;
 }
 
-/*7 изображение*/
-div.container6 {
-    display: flex;
-    justify-content: center;
-    margin-top: -12%;
-}
-
-.view6 {
-    float: left;
-    border: 10px solid white;
-    overflow: hidden;
-    position: relative;
-    top: 300px;
-    text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
-    cursor: default;
-}
-
-.view6 .mask6 {
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-}
-
-.view6 img {
-    display: block;
-    position: relative;
-}
-.view6 h2 {
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    position: relative;
-    font-size: 17px;
-    font-family: Raleway, serif;
-    padding: 10px;
-    margin: 40px 0 0 0;
-}
-
-.view6 p{
-    font-family: Merriweather, serif;
-    font-style: italic;
-    font-size: 14px;
-    position: relative;
-    color: white;
-    padding: 0 20px 0;
-    text-align: center;
-}
-
-.view6 a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 10px;
-    background: black;
-    color: white;
-    font-family: Raleway, serif;
-    font-size: 10px;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px black;
-}
-
-.view6 a.info:hover{
-    box-shadow: 0 0 5px black;
-}
-
-.view-first6 img {
-    transition: all 0.2s linear;
-    width: 300px;
-    height: 200px;
-}
-
-.view-first6 .mask6 {
-    opacity: 0;
-    background-color: rgba(58, 1, 132, 0.44);
-    transition: all 0.4s ease-in-out;
-}
-.view-first6 h2 {
-    transform: translateY(-100px);
-    opacity: 0;
-    font-family: Raleway, serif;
-    transition: all 0.2s ease-in-out;
-}
-
-.view-first6 p {
-    transform: translateY(100px);
-    opacity: 0;
-    transition: all 0.2s linear;
-}
-
-.view-first6 a.info {
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
-}
-
-.view-first6:hover img {
-    transform: scale(1.1);
-}
-
-.view-first6:hover .mask6 {
-    opacity: 1;
-}
-
-.view-first6:hover h2,
-.view-first6:hover p,
-.view-first6:hover a.info {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.view-first6:hover p {
-    transition-delay: 0.1s;
-}
-
-.view-first6:hover a.info {
-    transition-delay: 0.2s;
-}
-
 @media screen and (max-width: 1600px) {
     .view1 {
         top: -55px;
@@ -866,9 +746,6 @@ div.container6 {
     }
     .view5 {
         top: -72px;
-    }
-    .view6 {
-        top: 200px
     }
 }
 
@@ -884,9 +761,6 @@ div.container6 {
     }
     .view5 {
         top: -110px;
-    }
-    .view6 {
-        top: 200px
     }
 }
 
@@ -905,9 +779,6 @@ div.container6 {
     }
     .view5 {
         top: -183px
-    }
-    .view6 {
-        top: 30px;
     }
 }
 
@@ -948,10 +819,6 @@ div.container6 {
         height: 170px;
     }
     .view-first5 img {
-        width: 200px;
-        height: 170px;
-    }
-    .view-first6 img {
         width: 200px;
         height: 170px;
     }
