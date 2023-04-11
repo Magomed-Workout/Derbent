@@ -795,9 +795,7 @@ div.container5 {
     .view5 {
         top: -207px
     }
-    .view6 {
-        top: 30px;
-    }
+
     .view-first img {
         width: 200px;
         height: 170px;
@@ -821,6 +819,81 @@ div.container5 {
     .view-first5 img {
         width: 200px;
         height: 170px;
+    }
+    
+    .view h2 {
+        margin: 30px 100px 0 0;
+    }
+    .view1 h2 {
+        margin: 35px 100px 0 0;
+    }
+    .view2 h2 {
+        margin: 30px 100px 0 0;
+    }
+    .view3 h2 {
+        margin: 7px 100px 0 0;
+    }
+    .view4 h2 {
+        margin: 20px 100px 0 0;
+    }
+    .view5 h2 {
+        margin: 20px 100px 0 0;
+    }
+
+    .view p{
+        font-size: 14px;
+        padding: 0px 50px 0;
+        left: -50px;
+    }
+    .view1 p{
+        font-size: 14px;
+        padding: 0px 50px 0;
+        left: -50px;
+    }
+    .view2 p{
+        font-size: 14px;
+        padding: 0px 50px 0;
+        left: -50px;
+    }
+    .view3 p{
+        font-size: 14px;
+        padding: 0px 50px 0;
+        left: -50px;
+    }
+    .view4 p{
+        font-size: 14px;
+        padding: 0px 50px 0;
+        left: -50px;
+    }
+    .view5 p{
+        font-size: 14px;
+        padding: 0px 50px 0;
+        left: -50px;
+    }
+    
+    .view a.info {
+        padding: 7px 10px;
+        margin-right: 33%;
+    }
+    .view-first1 a.info {
+        padding: 7px 10px;
+        margin-right: 33%;
+    }
+    .view2 a.info {
+        padding: 7px 10px;
+        margin-right: 33%;
+    }
+    .view3 a.info {
+        padding: 7px 10px;
+        margin-right: 33%;
+    }
+    .view4 a.info {
+        padding: 7px 10px;
+        margin-right: 33%;
+    }
+    .view5 a.info {
+        padding: 7px 10px;
+        margin-right: 33%;
     }
 }
 
