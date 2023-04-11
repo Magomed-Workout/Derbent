@@ -54,7 +54,7 @@ li {
 #header {
     position: absolute;
     bottom: -70px;
-    top: 1015px;
+    top: 1030px;
     z-index: -5;
 
      left: 50%; 
@@ -72,4 +72,40 @@ li {
 #h2 {
     position: relative;
     top: -30px;
+}
+
+@media screen and (max-width: 1600px) {
+    #header {
+        top: 1100px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    #header {
+        top: 1200px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #header {
+        top: 1100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #header {
+        top: 1000px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
