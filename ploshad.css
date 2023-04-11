@@ -28,7 +28,7 @@ body {
 #map {
     position: absolute;
     right: 41%;
-    bottom: -300px;
+    bottom: -270px;
     width: 400px;
     height: 300px;
 }
@@ -36,7 +36,7 @@ body {
 #header {
     position: absolute;
     bottom: -400px;
-    top: 1430px;
+    top: 1400px;
     z-index: -5;
 
      left: 50%; 
@@ -63,4 +63,51 @@ a {
 
 a:hover {
     color: #ff0000;
+}
+
+@media screen and (max-width: 1600px) {
+    
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        background: url(./img/ploshad1.jpg)no-repeat;
+        background-size: 1366px 500px;  
+    }
+    .h1 {
+        bottom: 13%;
+        right: 35%;
+    }
+    .p {
+        bottom: -40px;
+        right: 0;
+        left: 5%;
+    }
+    #map {
+        bottom: -370px;
+        right: 33%;
+    }
+    #header {
+        top: 1200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+   
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
