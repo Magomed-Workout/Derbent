@@ -28,15 +28,15 @@ body {
 #map {
     position: absolute;
     right: 41%;
-    bottom: -110px;
-    width: 350px;
-    height: 230px;
+    bottom: -200px;
+    width: 400px;
+    height: 300px;
 }
 
 #video {
     position: absolute;
     right: 27%;
-    bottom: -600px;
+    bottom: -700px;
     width: 854px;
     height: 480px;
 }
@@ -44,7 +44,7 @@ body {
 #header {
     position: absolute;
     bottom: -700px;
-    top: 1720px;
+    top: 1800px;
     z-index: -5;
 
      left: 50%; 
@@ -71,4 +71,55 @@ a {
 
 a:hover {
     color: #ff0000;
+}
+
+@media screen and (max-width: 1600px) {
+    
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        background: url(./img/background.jpg)no-repeat;
+        background-size: 1366px 500px;  
+    }
+    .h1 {
+        bottom: 13%;
+        right: 30%;
+    }
+    .p {
+        bottom: -30px;
+        right: 0;
+        left: 5%;
+    }
+    #map {
+        bottom: -350px;
+        right: 31%;
+    }
+    #video {
+        bottom: -900px;
+        right: 16%;
+    }
+    #header {
+        top: 1700px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+   
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
