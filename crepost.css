@@ -104,6 +104,9 @@ a:hover {
         background-size: 1440px 800px; 
         background-position: right 0px top -230px;
     }
+    .p {
+        left: 15%;
+    }
 }
 
 @media screen and (max-width: 1366px) {
