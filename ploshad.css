@@ -113,6 +113,7 @@ a:hover {
         bottom: -40px;
         right: 0;
         left: 5%;
+        width: 1200px;
     }
     #map {
         bottom: -400px;
@@ -129,12 +130,13 @@ a:hover {
         background-position: right 0px top -150px;
     }
     .h1 {
-        bottom: 23%;
+        bottom: 20%;
         right: 27%;
     }
     .p {
-        bottom: -20px;
-        left: 10%;
+        bottom: -35px;
+        left: 7%;
+        width: 900px;
     }
     #map {
         bottom: -370px;
@@ -143,6 +145,10 @@ a:hover {
     #header {
         top: 1170px;
     }
+}
+
+@media screen and (max-width: 1024px) {
+   
 }
 
 @media screen and (max-width: 992px) {
