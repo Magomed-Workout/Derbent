@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(./img/bor.jpg)no-repeat;
+    background: url(img/bor.jpg)no-repeat;
     background-size: 1920px 1000px;  
     background-position: right 0px top -300px;
 }
@@ -102,9 +102,6 @@ a {
     }
     .p {
         left: 5%;
-    }
-    .video {
-        right: 10%;
     }
 }
 
