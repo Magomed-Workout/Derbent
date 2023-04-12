@@ -82,19 +82,19 @@ li {
 
 @media screen and (max-width: 1440px) {
     #header {
-        top: 1200px;
+        top: 1000px;
     }
 }
 
 @media screen and (max-width: 1366px) {
     #header {
-        top: 1050px;
+        top: 900px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     #header {
-        top: 1000px;
+        top: 800px;
     }
 }
 
