@@ -57,14 +57,21 @@ body {
 #ul {
     background-color: #000000;
     height: 100px;
-
-
-    color: #ff0000;}
+}
 
 #h2 {
     position: relative;
     top: -30px;
 }
+
+a { 
+     transition: color 0.3s linear;  
+     color: #ff0000;
+ } 
+  
+ a:hover { 
+     color: #ff0000; 
+ }
 
 @media screen and (max-width: 1600px) {
     body {
