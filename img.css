@@ -9,6 +9,7 @@ body {
     linear-gradient(to bottom, rgba(0, 183, 255, 0.25),
     rgba(77, 0, 201, 0.4)),
     linear-gradient(135deg, #7f00c9, #a30072);
+    font-family: 'Montserrat', sans-serif;;
 }
 
 div.container {
@@ -48,14 +49,12 @@ div.container {
     text-align: center;
     position: relative;
     font-size: 17px;
-    font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
     color: aqua;
 }
 
 .view p{
-    font-family: Merriweather, serif;
     font-style: italic;
     font-size: 14px;
     position: relative;
@@ -70,7 +69,6 @@ div.container {
     padding: 7px 10px;
     background: black;
     color: white;
-    font-family: Raleway, serif;
     font-size: 10px;
     text-transform: uppercase;
     box-shadow: 0 0 1px black;
