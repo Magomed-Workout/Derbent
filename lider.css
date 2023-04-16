@@ -76,7 +76,7 @@ li {
 
 @media screen and (max-width: 1600px) {
     #header {
-        top: 1100px;
+        top: 1000px;
     }
 }
 
@@ -107,5 +107,23 @@ li {
 }
 
 @media screen and (max-width: 575px) {
+    #header {
+        top: 820px;
+    }
+   
+    #logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    ul {
+        padding: 14px;
+    }
+
+    a {
+        font-size: 13px;
+        padding: 20px;
+        color: #ffffff;
+    }
 
 }
