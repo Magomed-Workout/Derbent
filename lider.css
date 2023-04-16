@@ -31,7 +31,7 @@ a {
     padding: 20px;
     color: #ffffff;
     text-decoration: none;
-    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;
     transition: color 0.3s linear;
 }
 
@@ -71,7 +71,7 @@ li {
 
 #h2 {
     position: relative;
-    top: -30px;
+    top: -35px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -108,7 +108,7 @@ li {
 
 @media screen and (max-width: 575px) {
     #header {
-        top: 820px;
+        top: 1620px;
     }
    
     #logo {
@@ -126,4 +126,14 @@ li {
         color: #ffffff;
     }
 
+    #mail {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #phone {
+        position: absolute;
+        bottom: -73px;
+        padding: 0;
+    }
 }
