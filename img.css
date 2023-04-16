@@ -294,6 +294,7 @@ div.container2 {
     font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
+    color: rgb(251, 255, 0);
 }
 
 .view2 p{
@@ -415,6 +416,7 @@ div.container3 {
     font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
+    color: #ff0062d5;
 }
 
 .view3 p{
@@ -535,6 +537,7 @@ div.container4 {
     font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
+    color: #1100ff;
 }
 
 .view4 p{
@@ -909,146 +912,140 @@ div.container5 {
 }
 
 @media screen and (max-width: 575px) {
-    div.container1 {
-        margin-left: 45%;
-    }
-    div.container3 {
-        margin-left: 53.7%;
-    }
-    div.container5 {
-        margin-right: 8.7%;
-    }
-
     .view {
         top: 60px;
+        left: 4%;
     }
     .view1 {
-        top: -9px;
+        top: 170px;
+        left: 1.4%;
     }
     .view2 {
-        top: 90px;
-        left: -47%;
+        top: 280px;
+        left: -1.4%;
     }
     .view3 {
-        top: -51px;
+        top: 317px;
+        left: 3.7%;
     }
     .view4 {
-        top: 40px;
-        left: -21%;
+        top: 426px;
+        left: 1%;
     }
     .view5 {
-        top: -29px;
+        top: 535px;
+        left: -1.8%;
     }
 
     .view-first img {
-        width: 140px;
-        height: 100px;
+        width: 300px;
+        height: 170px;
     }
     .view-first1 img {
-        width: 140px;
-        height: 100px;
+        width: 300px;
+        height: 170px;
     }
     .view-first2 img {
-        width: 140px;
-        height: 100px;
+        width: 300px;
+        height: 170px;
     }
     .view-first3 img {
-        width: 140px;
-        height: 100px;
+        width: 300px;
+        height: 170px;
     }
     .view-first4 img {
-        width: 140px;
-        height: 100px;
+        width: 300px;
+        height: 170px;
     }
     .view-first5 img {
-        width: 140px;
-        height: 100px;
+        width: 300px;
+        height: 170px;
     }
     
     .view h2 {
-        margin: -5px 157px 0 0;
-        font-size: 16px;
+        margin: 0px 0px 0 0;
+        font-size: 20px;
     }
     .view1 h2 {
-        margin: -5px 157px 0 0;
-        font-size: 16px;
+        margin: 0px 0px 0 0;
+        font-size: 20px;
     }
     .view2 h2 {
-        margin: -5px 157px 0 0;
-        font-size: 16px;
+        margin: 0px 0px 0 0;
+        font-size: 20px;
     }
     .view3 h2 {
-        margin: -5px 157px 0 0;
-        font-size: 16px;
+        margin: 0px 0px 0 0;
+        font-size: 20px;
     }
     .view4 h2 {
-        margin: -5px 157px 0 0;
-        font-size: 16px;
+        margin: 0px 0px 0 0;
+        font-size: 20px;
     }
     .view5 h2 {
-        margin: -10px 157px 0 0;
-        font-size: 15px;
+        margin: 0px 0px 0 0;
+        font-size: 20px;
     }
 
     .view p{
-        font-size: 12px;
-        padding: 0px 75px 0;
-        left: -77px;
-        top: -8px;
+        font-size: 17px;
+        padding: 13px 0px 0;
+        left: 0px;
     }
     .view1 p{
-        font-size: 12px;
-        padding: 0px 75px 0;
-        left: -80px;
-        top: -8px;
+        font-size: 17px;
+        padding: 13px 0px 0;
+        left: 0px;
     }
     .view2 p{
-        font-size: 12px;
-        padding: 0px 75px 0;
-        left: -77px;
-        top: -8px;
+        font-size: 17px;
+        padding: 13px 0px 0;
+        left: 0px;
     }
     .view3 p{
-        font-size: 12px;
-        padding: 0px 75px 0;
-        left: -77px;
-        top: -8px;
+        font-size: 17px;
+        padding: 13px 0px 0;
+        left: 0px;
     }
     .view4 p{
-        font-size: 12px;
-        padding: 0px 75px 0;
-        left: -77px;
-        top: -8px;
+        font-size: 17px;
+        padding: 13px 0px 0;
+        left: 0px;
     }
     .view5 p{
-        font-size: 11px;
-        padding: 0px 80px 0;
-        left: -80px;
-        top: -9px;
+        font-size: 17px;
+        padding: 13px 0px 0;
+        left: 0px;
     }
     
     .view a.info {
-        padding: 5px 10px;
-        margin-right: 50%;
+        padding: 7px 10px;
+        margin-right: 2%;
+        margin-top: 20px;
     }
     .view-first1 a.info {
-        padding: 5px 10px;
-        margin-right: 50%;
+        padding: 7px 10px;
+        margin-right: 2%;
+        margin-top: 20px;
     }
     .view2 a.info {
-        padding: 5px 10px;
-        margin-right: 50%;
+        padding: 7px 10px;
+        margin-right: 2%;
+        margin-top: 20px;
     }
     .view3 a.info {
         padding: 7px 10px;
-        margin-right: 50%;
+        margin-right: 2%;
+        margin-top: 20px;
     }
     .view4 a.info {
         padding: 7px 10px;
-        margin-right: 50%;
+        margin-right: 2%;
+        margin-top: 20px;
     }
     .view5 a.info {
         padding: 7px 10px;
-        margin-right: 50%;
+        margin-right: 2%;
+        margin-top: 20px;
     }
 }
