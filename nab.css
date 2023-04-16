@@ -56,8 +56,7 @@ body {
 
 #ul {
     background-color: #000000;
-    height: 100px;
-    color: aqua;    
+    height: 100px;    
 }
     
 #h2 {
@@ -67,6 +66,7 @@ body {
 
 a {
     transition: color 0.3s linear; 
+    color: aqua;
 }
 
 a:hover {
