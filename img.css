@@ -51,6 +51,7 @@ div.container {
     font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
+    color: aqua;
 }
 
 .view p{
@@ -171,6 +172,7 @@ div.container1 {
     font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
+    color: #ff0000;
 }
 
 .view1 p{
@@ -654,6 +656,7 @@ div.container5 {
     font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
+    color: greenyellow;
 }
 
 .view5 p{
@@ -906,5 +909,146 @@ div.container5 {
 }
 
 @media screen and (max-width: 575px) {
+    div.container1 {
+        margin-left: 45%;
+    }
+    div.container3 {
+        margin-left: 53.7%;
+    }
+    div.container5 {
+        margin-right: 8.7%;
+    }
 
+    .view {
+        top: 60px;
+    }
+    .view1 {
+        top: -9px;
+    }
+    .view2 {
+        top: 90px;
+        left: -47%;
+    }
+    .view3 {
+        top: -51px;
+    }
+    .view4 {
+        top: 40px;
+        left: -21%;
+    }
+    .view5 {
+        top: -29px;
+    }
+
+    .view-first img {
+        width: 140px;
+        height: 100px;
+    }
+    .view-first1 img {
+        width: 140px;
+        height: 100px;
+    }
+    .view-first2 img {
+        width: 140px;
+        height: 100px;
+    }
+    .view-first3 img {
+        width: 140px;
+        height: 100px;
+    }
+    .view-first4 img {
+        width: 140px;
+        height: 100px;
+    }
+    .view-first5 img {
+        width: 140px;
+        height: 100px;
+    }
+    
+    .view h2 {
+        margin: -5px 157px 0 0;
+        font-size: 16px;
+    }
+    .view1 h2 {
+        margin: -5px 157px 0 0;
+        font-size: 16px;
+    }
+    .view2 h2 {
+        margin: -5px 157px 0 0;
+        font-size: 16px;
+    }
+    .view3 h2 {
+        margin: -5px 157px 0 0;
+        font-size: 16px;
+    }
+    .view4 h2 {
+        margin: -5px 157px 0 0;
+        font-size: 16px;
+    }
+    .view5 h2 {
+        margin: -10px 157px 0 0;
+        font-size: 15px;
+    }
+
+    .view p{
+        font-size: 12px;
+        padding: 0px 75px 0;
+        left: -77px;
+        top: -8px;
+    }
+    .view1 p{
+        font-size: 12px;
+        padding: 0px 75px 0;
+        left: -80px;
+        top: -8px;
+    }
+    .view2 p{
+        font-size: 12px;
+        padding: 0px 75px 0;
+        left: -77px;
+        top: -8px;
+    }
+    .view3 p{
+        font-size: 12px;
+        padding: 0px 75px 0;
+        left: -77px;
+        top: -8px;
+    }
+    .view4 p{
+        font-size: 12px;
+        padding: 0px 75px 0;
+        left: -77px;
+        top: -8px;
+    }
+    .view5 p{
+        font-size: 11px;
+        padding: 0px 80px 0;
+        left: -80px;
+        top: -9px;
+    }
+    
+    .view a.info {
+        padding: 5px 10px;
+        margin-right: 50%;
+    }
+    .view-first1 a.info {
+        padding: 5px 10px;
+        margin-right: 50%;
+    }
+    .view2 a.info {
+        padding: 5px 10px;
+        margin-right: 50%;
+    }
+    .view3 a.info {
+        padding: 7px 10px;
+        margin-right: 50%;
+    }
+    .view4 a.info {
+        padding: 7px 10px;
+        margin-right: 50%;
+    }
+    .view5 a.info {
+        padding: 7px 10px;
+        margin-right: 50%;
+    }
 }
