@@ -64,14 +64,14 @@ body {
     top: -30px;
 }
 
-a { 
-     transition: color 0.3s linear;  
-     color: #ff0000;
- } 
-  
- a:hover { 
-     color: #ff0000; 
- }
+a {
+    color: #ff0000;
+    transition: color 0.3s linear; 
+}
+
+a:hover {
+    color: #00ff4c;
+}
 
 @media screen and (max-width: 1600px) {
     body {
@@ -176,5 +176,8 @@ a {
 }
 
 @media screen and (max-width: 575px) {
-
+    body {
+        background-size: 575px 300px; 
+        background-position: right -70px top 0px;
+    }
 }
