@@ -56,17 +56,17 @@ body {
 
 #ul {
     background-color: #000000;
-    height: 100px;    
+    height: 100px;
 }
-    
+
 #h2 {
     position: relative;
     top: -30px;
 }
 
 a {
+    color: aqua;
     transition: color 0.3s linear; 
-    color: aqua;
 }
 
 a:hover {
@@ -174,5 +174,8 @@ a:hover {
 }
 
 @media screen and (max-width: 575px) {
-
+    body {
+        background-size: 575px 300px; 
+        background-position: right -72px top 0px;
+    }
 }
