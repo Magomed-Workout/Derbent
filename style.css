@@ -232,7 +232,7 @@ a {
     }
     .h1 {
         right: 47px;
-        bottom: 235px;
+        bottom: 350px;
         font-size: 40px;
     }
     .p {
@@ -258,7 +258,7 @@ a {
 
     #phone {
         position: absolute;
-        bottom: -75px;
+        bottom: 130px;
         padding: 0;
     }
     #mail {
