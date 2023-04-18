@@ -74,7 +74,7 @@ body {
     transform: translateX(-50%); 
     transition: .3s all;
     width: 100%;
-    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 #ul {
