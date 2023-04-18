@@ -198,7 +198,7 @@ body {
 @media screen and (max-width: 575px) {
     body {
         background-size: 575px 300px; 
-        background-position: right -17px top 0px;
+        background-position: right -30px top 0px;
     }
     #h1 {
         bottom: 50320px;
