@@ -209,7 +209,7 @@ a {
         background-position: right -30px top 0px;
     }
     #header {
-        top: 1000px;
+        top: 900px;
     }
    
     #logo {
@@ -236,29 +236,31 @@ a {
         font-size: 40px;
     }
     .p {
-        bottom: 75px;
-        left: 17px;
+        bottom: 190px;
+        left: 12px;
         font-size: 20px;
         padding: 0;
         right: 0;
+        width: 360px;
     }
     #par {
-        bottom: -38px;
-        left: 17px;
+        bottom: 75px;
+        left: 12px;
         font-size: 20px;
         padding: 0;
         right: 0;
+        width: 360px;
     }
     .video {
         width: 350px;
         height: 200px;
-        right: 3.5%;
-        bottom: -250px;
+        right: 5%;
+        bottom: -140px;
     }
 
     #phone {
         position: absolute;
-        bottom: 130px;
+        bottom: 140px;
         padding: 0;
     }
     #mail {
