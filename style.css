@@ -196,5 +196,36 @@ body {
 }
 
 @media screen and (max-width: 575px) {
+    body {
+        background-size: 575px 300px; 
+        background-position: right 17px top 0px;
+    }
+    #h1 {
+        bottom: 50320px;
+        right: 633px;
+    }
+    .h1 {
+        right: 60px;
+        bottom: 18320px;
+    }
+    .p {
+        bottom: 705px;
+    }
+    #par {
+        bottom: 14365656px;
+    }
+    .video {
+        right: 23%;
+        bottom: -5300px;
+    }
 
+    #phone {
+        position: absolute;
+        bottom: -85px;
+        padding: 0;
+    }
+    #mail {
+        margin: 0 auto;
+        padding: 0;
+    }
 }
