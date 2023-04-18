@@ -912,7 +912,6 @@ div.container5 {
 @media screen and (max-width: 575px) {
     .view {
         top: 60px;
-        left: 4%;
     }
     .view1 {
         top: 170px;
@@ -920,11 +919,10 @@ div.container5 {
     }
     .view2 {
         top: 280px;
-        left: -1.4%;
+        left: 3.4%;
     }
     .view3 {
         top: 317px;
-        left: 3.7%;
     }
     .view4 {
         top: 426px;
@@ -932,7 +930,7 @@ div.container5 {
     }
     .view5 {
         top: 535px;
-        left: -1.8%;
+        left: 2.8%;
     }
 
     .view-first img {
