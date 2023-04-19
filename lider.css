@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: none;
     border-bottom: 1px solid #ccc;
@@ -61,7 +65,7 @@ li {
     transform: translateX(-50%); 
     transition: .3s all;
     width: 100%;
-    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #ul {
@@ -122,18 +126,15 @@ li {
 
     a {
         font-size: 13px;
-        padding: 20px;
-        color: #ffffff;
-    }
-
-    #mail {
-        margin: 0 auto;
-        padding: 0;
     }
 
     #phone {
         position: absolute;
-        bottom: -73px;
+        bottom: -65px;
+        padding: 0;
+    }
+    #mail {
+        margin: 0 auto;
         padding: 0;
     }
 }
