@@ -92,7 +92,6 @@ div.container {
 .view-first h2 {
     transform: translateY(-100px);
     opacity: 0;
-    font-family: Raleway, serif;
     transition: all 0.2s ease-in-out;
 }
 
@@ -167,14 +166,12 @@ div.container1 {
     text-align: center;
     position: relative;
     font-size: 17px;
-    font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
     color: #ff0000;
 }
 
 .view1 p{
-    font-family: Merriweather, serif;
     font-style: italic;
     font-size: 14px;
     position: relative;
@@ -189,7 +186,6 @@ div.container1 {
     padding: 7px 10px;
     background: black;
     color: white;
-    font-family: Raleway, serif;
     font-size: 10px;
     text-transform: uppercase;
     box-shadow: 0 0 1px black;
@@ -213,7 +209,6 @@ div.container1 {
 .view-first1 h2 {
     transform: translateY(-100px);
     opacity: 0;
-    font-family: Raleway, serif;
     transition: all 0.2s ease-in-out;
 }
 
@@ -289,14 +284,12 @@ div.container2 {
     text-align: center;
     position: relative;
     font-size: 17px;
-    font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
     color: rgb(251, 255, 0);
 }
 
 .view2 p{
-    font-family: Merriweather, serif;
     font-style: italic;
     font-size: 14px;
     position: relative;
@@ -311,7 +304,6 @@ div.container2 {
     padding: 7px 10px;
     background: black;
     color: white;
-    font-family: Raleway, serif;
     font-size: 10px;
     text-transform: uppercase;
     box-shadow: 0 0 1px black;
@@ -335,7 +327,6 @@ div.container2 {
 .view-first2 h2 {
     transform: translateY(-100px);
     opacity: 0;
-    font-family: Raleway, serif;
     transition: all 0.2s ease-in-out;
 }
 
@@ -411,14 +402,12 @@ div.container3 {
     text-align: center;
     position: relative;
     font-size: 17px;
-    font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
-    color: #ff0062d5;
+    color: #FF5722;
 }
 
 .view3 p{
-    font-family: Merriweather, serif;
     font-style: italic;
     font-size: 14px;
     position: relative;
@@ -433,7 +422,6 @@ div.container3 {
     padding: 7px 10px;
     background: black;
     color: white;
-    font-family: Raleway, serif;
     font-size: 10px;
     text-transform: uppercase;
     box-shadow: 0 0 1px black;
@@ -457,7 +445,6 @@ div.container3 {
 .view-first3 h2 {
     transform: translateY(-100px);
     opacity: 0;
-    font-family: Raleway, serif;
     transition: all 0.2s ease-in-out;
 }
 
@@ -532,14 +519,12 @@ div.container4 {
     text-align: center;
     position: relative;
     font-size: 17px;
-    font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
-    color: #1100ff;
+    color: #FFC480;
 }
 
 .view4 p{
-    font-family: Merriweather, serif;
     font-style: italic;
     font-size: 14px;
     position: relative;
@@ -554,7 +539,6 @@ div.container4 {
     padding: 7px 10px;
     background: black;
     color: white;
-    font-family: Raleway, serif;
     font-size: 10px;
     text-transform: uppercase;
     box-shadow: 0 0 1px black;
@@ -578,7 +562,6 @@ div.container4 {
 .view-first4 h2 {
     transform: translateY(-100px);
     opacity: 0;
-    font-family: Raleway, serif;
     transition: all 0.2s ease-in-out;
 }
 
@@ -654,14 +637,12 @@ div.container5 {
     text-align: center;
     position: relative;
     font-size: 17px;
-    font-family: Raleway, serif;
     padding: 10px;
     margin: 40px 0 0 0;
     color: greenyellow;
 }
 
 .view5 p{
-    font-family: Merriweather, serif;
     font-style: italic;
     font-size: 14px;
     position: relative;
@@ -676,7 +657,6 @@ div.container5 {
     padding: 7px 10px;
     background: black;
     color: white;
-    font-family: Raleway, serif;
     font-size: 10px;
     text-transform: uppercase;
     box-shadow: 0 0 1px black;
@@ -700,7 +680,6 @@ div.container5 {
 .view-first5 h2 {
     transform: translateY(-100px);
     opacity: 0;
-    font-family: Raleway, serif;
     transition: all 0.2s ease-in-out;
 }
 
@@ -1000,7 +979,7 @@ div.container5 {
     }
     .view3 p{
         font-size: 17px;
-        padding: 13px 0px 0;
+        padding: 0px 0px 0;
         left: 0px;
     }
     .view4 p{
@@ -1032,7 +1011,7 @@ div.container5 {
     .view3 a.info {
         padding: 7px 10px;
         margin-right: 2%;
-        margin-top: 20px;
+        margin-top: 5px;
     }
     .view4 a.info {
         padding: 7px 10px;
