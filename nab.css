@@ -19,16 +19,17 @@ body {
 
 .p {
     position: absolute;
-    right: 15%;
-    bottom: 15%;
+    right: 7%;
+    bottom: 10%;
     font-size: 25px;
     font-family: Franklin Gothic Medium;
+    width: 1500px;
 }
 
 #map {
     position: absolute;
     right: 41%;
-    bottom: -170px;
+    bottom: -230px;
     width: 400px;
     height: 300px;
 }
@@ -36,7 +37,7 @@ body {
 #video {
     position: absolute;
     right: 27%;
-    bottom: -680px;
+    bottom: -750px;
     width: 854px;
     height: 480px;
 }
@@ -44,7 +45,7 @@ body {
 #header {
     position: absolute;
     bottom: -700px;
-    top: 1770px;
+    top: 1870px;
     z-index: -5;
 
      left: 50%; 
@@ -83,16 +84,16 @@ a:hover {
         right: 42%;
     }
     .p {
-        bottom: 7%;
-        right: 0%;
-        left: 10%;
+        bottom: -10px;
+        right: 6%;
+        width: 1300px;
     }
     #map {
-        bottom: -300px;
+        bottom: -330px;
         right: 37%;
     }
     #video {
-        bottom: -850px;
+        bottom: -855px;
         right: 20%;
     }
     #header {
@@ -105,7 +106,9 @@ a:hover {
         background-size: 1440px 800px; 
     }
     .p {
-        bottom: 5%;
+        bottom: -10px;
+        width: 1100px;
+        right: 7%
     }
 }
 
@@ -117,16 +120,15 @@ a:hover {
     }
     .h1 {
         bottom: 13%;
-        right: 36%;
+        right: 40%;
     }
     .p {
-        bottom: 0.1%;
-        right: 0;
-        left: 5%;
+        bottom: -25px;
+        right: 5%;
     }
     #map {
-        bottom: -330px;
-        right: 30%;
+        bottom: -350px;
+        right: 35%;
     }
     #video {
         bottom: -900px;
@@ -147,21 +149,22 @@ a:hover {
         right: 35%;
     }
     .p {
-        bottom: 7%;
-        left: 13%;
+        bottom: -55px;
+        right: 6%;
+        width: 800px;
     }
     #map {
-        bottom: -300px;
+        bottom: -400px;
         right: 30%;
     }
     #video {
         width: 700px;
         height: 400px;
-        bottom: -770px;
+        bottom: -850px;
         right: 15%;
     }
     #header {
-        top: 1630px;
+        top: 1670px;
     }
 }
 
@@ -177,5 +180,62 @@ a:hover {
     body {
         background-size: 575px 300px; 
         background-position: right -72px top 0px;
+    }
+    #header {
+        top: 1095px;
+    }
+
+    ul {
+        padding: 14px;
+    }
+
+    a {
+        font-size: 13px;
+    }
+
+    .h1 {
+        right: 85px;
+        bottom: 365px;
+        font-size: 40px;
+    }
+    .p {
+        bottom: 140px;
+        left: 30px;
+        font-size: 20px;
+        padding: 0;
+        right: 0;
+        width: 360px;
+    }
+    #par {
+        bottom: 75px;
+        left: 17px;
+        font-size: 20px;
+        padding: 0;
+        right: 0;
+        width: 360px;
+    }
+    
+    #map {
+        right: 41%;
+        bottom: -1730px;
+        width: 400px;
+        height: 300px;
+    }
+    
+    #video {
+        width: 350px;
+        height: 200px;
+        right: 5%;
+        bottom: -220px;
+    }
+
+    #phone {
+        position: absolute;
+        bottom: 57px;
+        padding: 0;
+    }
+    #mail {
+        margin: 0 auto;
+        padding: 0;
     }
 }
