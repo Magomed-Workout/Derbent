@@ -158,9 +158,11 @@ a {
     }
     .p {
         bottom: -90px;
+        left: 20%;
     }
     #par {
         bottom: -170px;
+        left: 20%;
     }
     .video {
         right: 15%;
