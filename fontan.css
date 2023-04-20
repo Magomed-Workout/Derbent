@@ -19,16 +19,17 @@ body {
 
 .p {
     position: absolute;
-    right: 15%;
-    bottom: 15%;
+    right: 12%;
+    bottom: 10%;
     font-size: 25px;
     font-family: Franklin Gothic Medium;
+    width: 1300px;
 }
 
 #map {
     position: absolute;
     right: 41%;
-    bottom: -170px;
+    bottom: -250px;
     width: 400px;
     height: 300px;
 }
@@ -36,7 +37,7 @@ body {
 #video {
     position: absolute;
     right: 27%;
-    bottom: -680px;
+    bottom: -800px;
     width: 854px;
     height: 480px;
 }
@@ -44,14 +45,14 @@ body {
 #header {
     position: absolute;
     bottom: -700px;
-    top: 1770px;
+    top: 1910px;
     z-index: -5;
 
      left: 50%; 
     transform: translateX(-50%); 
     transition: .3s all;
     width: 100%;
-    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #ul {
@@ -83,7 +84,7 @@ a:hover {
         right: 46%;
     }
     .p {
-        bottom: 9%;
+        bottom: 5%;
         left: 10%;
     }
     #map {
@@ -105,7 +106,7 @@ a:hover {
     }
     .p {
         bottom: 5%;
-        left: 17%;
+        left: 5%;
     }
     #video {
         right: 20%;
@@ -119,19 +120,20 @@ a:hover {
     }
     .h1 {
         bottom: 13%;
-        right: 45%;
+        right: 43%;
     }
     .p {
         bottom: -10px;
         right: 0;
         left: 7%;
+        width: 1150px;
     }
     #map {
-        bottom: -370px;
+        bottom: -350px;
         right: 33%;
     }
     #video {
-        bottom: -920px;
+        bottom: -900px;
         right: 16%;
     }
     #header {
@@ -149,17 +151,18 @@ a:hover {
         right: 42%;
     }
     .p {
-        bottom: 8%;
-        left: 10%;
+        bottom: -10px;
+        left: 17%;
+        width: 700px;
     }
     #map {
-        bottom: -300px;
+        bottom: -350px;
         right: 30%;
     }
     #video {
         width: 700px;
         height: 400px;
-        bottom: -770px;
+        bottom: -800px;
         right: 15%;
     }
     #header {
@@ -191,11 +194,11 @@ a:hover {
         font-size: 40px;
     }
     .p {
-        bottom: 175px;
-        left: 25px;
+        bottom: 185px;
+        left: 30px;
         font-size: 20px;
         padding: 0;
-        right: 1%;
+        right: 0;
         width: 360px;
     }
     
