@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(img/fontan.jpg)no-repeat;
+    background: url(./img/fontan.jpg)no-repeat;
     background-size: 1920px 800px;  
     background-position: right 0px top -100px;
 }
