@@ -195,7 +195,7 @@ a:hover {
     }
     .p {
         bottom: 185px;
-        left: 30px;
+        left: 23px;
         font-size: 20px;
         padding: 0;
         right: 0;
@@ -217,7 +217,7 @@ a:hover {
     }
 
     #phone {
-        bottom: 60px;
-        After Dark 0;
+        bottom: 45px;
+        padding: 0;
     }
 }
