@@ -184,7 +184,7 @@ a:hover {
     .h1 {
         right: 25px;
         bottom: 365px;
-        font-size: 35px;
+        font-size: 33px;
     }
     .p {
         bottom: 180px;
@@ -210,7 +210,7 @@ a:hover {
     }
 
     #phone {
-        bottom: 45px;
+        bottom: 60px;
         padding: 0;
     }
     #mail {
