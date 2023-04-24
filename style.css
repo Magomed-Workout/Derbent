@@ -267,7 +267,8 @@ a {
         padding: 0;
     }
     #mail {
-        margin: 0 auto;
         padding: 0;
+        position: relative;
+        bottom: 5px;
     }
 }
