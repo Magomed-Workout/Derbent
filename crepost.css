@@ -177,4 +177,43 @@ a:hover {
         background-size: 575px 300px; 
         background-position: right -100px top 0px;
     }
+    #header {
+        top: 1295px;
+    }
+    
+    .h1 {
+        right: 25px;
+        bottom: 365px;
+        font-size: 35px;
+    }
+    .p {
+        bottom: 180px;
+        left: 20px;
+        font-size: 20px;
+        padding: 0;
+        right: 0;
+        width: 360px;
+    }
+    
+    #map {
+        right: 11%;
+        bottom: -125px;
+        width: 300px;
+        height: 200px;
+    }
+    
+    #video {
+        width: 350px;
+        height: 200px;
+        right: 5%;
+        bottom: -410px;
+    }
+
+    #phone {
+        bottom: 45px;
+        padding: 0;
+    }
+    #mail {
+        padding: 0;
+    }
 }
