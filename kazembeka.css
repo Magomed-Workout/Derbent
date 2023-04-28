@@ -67,12 +67,12 @@ body {
 }
 
 a {
-    color: blueviolet;
+    color: #FF5722;
     transition: color 0.3s linear;
 }
 
 a:hover {
-    color: crimson;
+    color: #0000ff;
 }
 
 @media screen and (max-width: 1600px) {
@@ -182,5 +182,48 @@ a:hover {
 }
 
 @media screen and (max-width: 575px) {
+    body {
+        background-size: 575px 300px; 
+        background-position: right -50px top 0px;
+    }
+    #header {
+        top: 1295px;
+    }
+    .h1 {
+        right: 37px;
+        bottom: 330px;
+        font-size: 35px;
+        width: 300px;
+    }
+    .p {
+        bottom: -180px;
+        text-align: center;
+        left: 80px;
+        font-size: 15px;
+        padding: 0;
+        right: 0;
+        width: 245px;
+    }
+    
+    #pam {
+        bottom: 50px;
+        left: 25%;
+        width: 200px;
+        height: 250px;
+    }
 
+    #map {
+        right: 11%;
+        bottom: -400px;
+        width: 300px;
+        height: 200px;
+    }
+
+    #phone {
+        bottom: 50px;
+        padding: 0;
+    }
+    #mail {
+        padding: 0;
+    }
 }
