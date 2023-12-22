@@ -32,6 +32,15 @@ ul {
     width: 100vw;
     height: 55px;
     border-bottom: 1px solid #ccc;
+    opacity: 0;
+    transform: translateY(-10%);
+    z-index: 1;
+    transition: 0.5s all ease-in-out;
+}
+
+.header.active {
+    transform: translateY(0%);
+    opacity: 1;
 }
 
 .logo {
@@ -63,6 +72,12 @@ ul {
     color: #ffffff;
     text-align: center;
     padding-top: 27vh;
+    transform: scale(0);
+    transition: 0.5s all ease-in-out
+}
+
+.title.active {
+    transform: scale(1);
 }
 
 .main {
@@ -76,12 +91,23 @@ ul {
     color: #000000;
     text-align: center;
     margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(-30%);
+    transition: 0.5s all ease-in-out
 }
 
 .description-subtitle, .description-main {
     font-size: 2rem;
     line-height: 60px;
     color: #000000;
+    opacity: 0;
+    transform: translateY(-20%);
+    transition: 0.5s all ease-in-out
+}
+
+.subtitle.active, .description-subtitle.active, .description-main.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .video_center {
@@ -93,10 +119,21 @@ ul {
     margin-top: 50px;
     width: 55vw;
     height: 55vh;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: 0.5s all ease-in-out
+}
+
+.video.active, .footer.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .footer {
     background: #000000;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: 0.5s all ease-in-out
 }
 
 .footer-title {
@@ -371,6 +408,10 @@ ul {
     
     .nav {
         margin-left: 5vw;
+    }
+
+    .link__nav {
+        padding: 15px 20px;
     }
 
     .main {
