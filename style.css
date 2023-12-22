@@ -30,7 +30,7 @@ ul {
     align-items: center;
     position: fixed;
     width: 100vw;
-    height: 8vh;
+    height: 55px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -249,10 +249,6 @@ ul {
         background-position: right 0px top -50px;
     }
 
-    .header {
-        height: 13vh;
-    }
-
     .logo {
         width: 70px;
         height: 70px;
@@ -347,8 +343,17 @@ ul {
 }
 
 @media screen and (max-width: 500px) {
+    .header {
+        height: 45px;
+    }
+    
     .nav {
         margin-left: 10vw;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
     }
 
     .video_center {
