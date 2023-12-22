@@ -272,6 +272,13 @@ ul {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .main {
+        max-width: 700px;
+        gap: 30px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .main {
         max-width: 300px;
@@ -285,7 +292,7 @@ ul {
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 400px) {
     .main {
         max-width: 320px;
     }
