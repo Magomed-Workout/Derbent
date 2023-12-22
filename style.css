@@ -215,26 +215,9 @@ ul {
         height: 70vh;
         background-size: 100vw 90vh;
     }
-
-    .title {
-        font-size: 4rem;
-    }
-
-    .main {
-        max-width: 800px;
-    }
-
-    .subtitle {
-        font-size: 2.5rem;
-    }
     
     .description-subtitle, .description-main {
-        font-size: 1rem;
         line-height: 50px;
-    }
-    
-    .video_center {
-        max-width: 550px;
     }
     
     .video {
@@ -242,20 +225,36 @@ ul {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-height: 350px) {
     .wrap {
-        height: 77vh;
-        background-size: 100vw 90vh;
-        background-position: right 0px top -50px;
+        height: 90vh;
+        background-size: 100vw 130vh;
+        background-position: right 0px top -85px;
     }
-
+   
     .logo {
         width: 70px;
         height: 70px;
     }
 
-    .main {
-        max-width: 700px;
+    .title {
+        padding-top: 33vh;
+        font-size: 3.7rem;
+    }
+
+    .description-subtitle, .description-main {
+        line-height: 45px;
+    }
+
+    .video {
+        height: 62vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrap {
+        height: 60vh;
+        background-position: right 0px top -85px;
     }
 
     .video_center {
@@ -263,7 +262,8 @@ ul {
     }
 
     .video {
-        height: 62vh;
+        height: 45vh;
+        width: 58vw;
     }
 }
 
@@ -292,10 +292,6 @@ ul {
 
     .subtitle {
         font-size: 2.3rem;
-    }
-
-    .video {
-        height: 30vh;
     }
 }
 
