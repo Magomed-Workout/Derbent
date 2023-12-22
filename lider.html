@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv='X-UA-Compatible' content="IE=edge">
@@ -9,100 +9,104 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href='navbar.css'>
     <link rel="stylesheet" href='lider.css'>
-    <link rel="stylesheet" href="img.css">
-    <link rel="icon" href="img/logo.png">
+    <link rel="icon" href="./img/logo.png">
     <title>Путеводитель</title>
 </head>
 <body>
-    <header class='header--fixed' align = 'center'>
-        <ul>
-            <li><a href="index.html"><b>Главная</b></a></li>
-            <li><a href="lider.html"><b>Путеводитель</b></a></li>
-        </ul>
-    </header>
-    <img src="./img/logo.png" id="logo">        
-    <div>
-        <header id='header' class='header--fixed' align = 'center'>
-            <ul id="ul">
-                <h2 id='h2' style="color: white;"><br>Связаться с нами</h2>
-                <li><a href='tel:+77777777777' id="phone"> Наш телефон: +7(777)777-77-77</a></li>
-                <li><a href="mailto:slonic228@gmail.com" id="mail">Наша почта: slonic228@gmail.com</a></li>
+    <header class='header'>
+        <a href="index.html"> <img src="./img/logo.png" class="logo"></a>
+        <nav class="nav">
+            <ul class="nav-bar">
+                <li><a href="index.html" class="link__nav"><b>Главная</b></a></li>
+                <li><a href="lider.html" class="link__nav"><b>Путеводитель</b></a></li>
             </ul>
-        </header>
-    </div>
+        </nav>
+        <button style="opacity: 0; padding-right: 50px;">.</button>
+    </header>
 
-    <div class="container"> <!--1-е изображение-->
-        <div class="view view-first">
-            <img src='./img/naberejnaya.jpg' alt='Набережная Дербент'>
-            
-            <div class="mask">
-                <h2>Набережная</h2>
-                <p>Находясь в Дербенте, вы можете посетить городскую Набережную...</p>
-                <a href="nab.html" class="info">Читать далее</a>
+   <main class="main">
+        <div class="container show1"> <!--1-е изображение-->
+            <div class="view view-first">
+                <img src='./img/naberejnaya.jpg' alt='Набережная Дербент'>
+                
+                <div class="mask">
+                    <h2 style="color: aqua;">Набережная</h2>
+                    <p>Находясь в Дербенте, вы можете посетить городскую Набережную...</p>
+                    <a href="nab.html" class="info">Читать далее</a>
+                </div>
             </div>
         </div>
-    </div>
+        
+        <div class="container show2"> <!--2-е изображение-->
+            <div class="view view-first">
+                <img src='./img/fontan.jpg' alt='Фонтан Дербент'>
+                
+                <div class="mask">
+                    <h2 style="color: red;">Фонтан</h2>
+                    <p>Также вы можете посетить парк им. Низами Гянджеви...</p>
+                    <a href="fontan.html" class="info">Читать далее</a>
+                </div>
+            </div>
+        </div>
     
-    <div class="container1"> <!--2-е изображение-->
-        <div class="view1 view-first1">
-            <img src='./img/fontan.jpg' alt='Фонтан Дербент'>
-            
-            <div class="mask1">
-                <h2>Фонтан</h2>
-                <p>Также вы можете посетить парк им. Низами Гянджеви...</p>
-                <a href="fontan.html" class="info">Читать далее</a>
+        <div class="container show3"> <!--3-е изображение-->
+            <div class="view view-first">
+                <img src="./img/background.jpg" alt="Крепость Нарын-Кала">
+                
+                <div class="mask">
+                    <h2 style="color: yellow;">Крепость Нарын-Кала</h2>
+                    <p>- это персидская цитадель, часть Дербентской крепости...</p>
+                    <a href="crepost.html" class="info">Читать далее</a>
+                </div>
             </div>
         </div>
-    </div>
+    
+        <div class="container1 show4"> <!--4-е изображение-->
+            <div class="view view-first">
+                <img src='./img/kazembeka.jpg' alt='Улица Счастливых Людей'>
+                
+                <div class="mask">
+                    <h2 style="color: tomato;">Улица Счастливых Людей</h2>
+                    <p>Неофициальное название переулка — «Улица счастливых людей» —...</p>
+                    <a href="kazembek.html" class="info">Читать далее</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container1 show5"> <!--5-е изображение-->
+            <div class="view view-first">
+                <img src='https://img.tourister.ru/files/3/3/4/6/3/4/2/1/clones/728_486_fixedwidth.jpg?t=1679901415503' alt='Площадь Свободы'>
+                
+                <div class="mask">
+                    <h2 style="color: #FFC480;">Площадь Свободы</h2>
+                    <p>Плóщадь Свобóды — главная площадь Дербента...</p>
+                    <a href="ploshad.html" class="info">Читать далее</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container1 show6"> <!--6-е изображение-->
+            <div class="view view-first">
+                <img src='https://avatars.mds.yandex.net/get-altay/4365916/2a000001777f6b18b6bf79ec60fbb9b3c775/XXXL' alt='Сосновый Бор Дербент'>
+                
+                <div class="mask">
+                    <h2 style="color: greenyellow;">Сосновый Бор</h2>
+                    <p>Сосновый Бор в Дербенте находится на том же холме...</p>
+                    <a href="bor.html" class="info">Читать далее</a>
+                </div>
+            </div>
+        </div>
+   </main>
 
-    <div class="container2"> <!--3-е изображение-->
-        <div class="view2 view-first2">
-            <img src="./img/background.jpg" alt="Крепость Нарын-Кала">
-            
-            <div class="mask2">
-                <h2>Крепость Нарын-Кала</h2>
-                <p>- это персидская цитадель, часть Дербентской крепости...</p>
-                <a href="crepost.html" class="info">Читать далее</a>
-            </div>
-        </div>
-    </div>
+    <footer class="footer">
+        <h2 class="footer-title">Связаться с нами</h2>
+        <ul class="contacts">
+            <li><a href='tel:+77777777777' id="phone"> Наш телефон: <span style="text-decoration: underline;">+7(777)777-77-77</span></a></li>
+            <li><a href="mailto:slonic228@gmail.com" id="mail">Наша почта: <span style="text-decoration: underline;">slonic228@gmail.com</span></a></li>
+        </ul>
+    </footer>
 
-    <div class="container3"> <!--4-е изображение-->
-        <div class="view3 view-first3">
-            <img src='./img/kazembeka.jpg' alt='Улица Счастливых Людей'>
-            
-            <div class="mask3">
-                <h2>Улица Счастливых Людей</h2>
-                <p>Неофициальное название переулка — «Улица счастливых людей» —...</p>
-                <a href="kazembek.html" class="info">Читать далее</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container4"> <!--5-е изображение-->
-        <div class="view4 view-first4">
-            <img src='https://img.tourister.ru/files/3/3/4/6/3/4/2/1/clones/728_486_fixedwidth.jpg?t=1679901415503' alt='Площадь Свободы'>
-            
-            <div class="mask4">
-                <h2>Площадь Свободы</h2>
-                <p>Плóщадь Свобóды — главная площадь Дербента...</p>
-                <a href="ploshad.html" class="info">Читать далее</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container5"> <!--6-е изображение-->
-        <div class="view5 view-first5">
-            <img src='https://avatars.mds.yandex.net/get-altay/4365916/2a000001777f6b18b6bf79ec60fbb9b3c775/XXXL' alt='Сосновый Бор Дербент'>
-            
-            <div class="mask5">
-                <h2>Сосновый Бор</h2>
-                <p>Сосновый Бор в Дербенте находится на том же холме...</p>
-                <a href="bor.html" class="info">Читать далее</a>
-            </div>
-        </div>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
