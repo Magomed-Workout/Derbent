@@ -27,6 +27,7 @@ ul {
 
 .header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100vw;
@@ -44,22 +45,18 @@ ul {
 }
 
 .logo {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     margin-left: 10px;
-}
-
-.nav {
-    margin-left: 37vw;
 }
 
 .nav-bar {
     display: flex;
+    gap: 25px;
 }
 
 .link__nav {
-    color: rgb(60, 255, 0);
-    padding: 20px;
+    color: #3cff00;
     transition: 0.3s all ease-in-out;
 }
 
@@ -191,10 +188,6 @@ ul {
         background-position: right 0px top -150px;
     }
 
-    .nav {
-        margin-left: 34vw;
-    }
-    
     .title {
         font-size: 4.25rem;
     }
@@ -217,10 +210,6 @@ ul {
 }
 
 @media screen and (max-width: 1024px) {
-    .nav {
-        margin-left: 30vw;
-    }
-
     .title {
         font-size: 4rem;
     }
@@ -310,10 +299,6 @@ ul {
         background-size: 100vw 80vh;
     }
 
-    .nav {
-        margin-left: 25vw;
-    }
-
     .title {
         font-size: 3.7rem;
         padding-top: 23vh;
@@ -337,10 +322,6 @@ ul {
         height: 47vh;
         background-size: 115vw 65vh;
         background-position: right 0px top -100px;
-    }
-   
-    .nav {
-        margin-left: 20vw;
     }
 
     .title {
@@ -379,10 +360,6 @@ ul {
     .header {
         height: 45px;
     }
-    
-    .nav {
-        margin-left: 10vw;
-    }
 
     .logo {
         width: 60px;
@@ -404,10 +381,6 @@ ul {
         height: 52vh;
         background-size: 130vw 60vh;
         background-position: right -20px top -70px;
-    }
-    
-    .nav {
-        margin-left: 5vw;
     }
 
     .link__nav {
@@ -432,10 +405,6 @@ ul {
         height: 40vh;
         background-size: 130vw 50vh;
         background-position: right -20px top -70px;
-    }
-    
-    .nav {
-        margin-left: 4vw;
     }
 
     .link__nav {
