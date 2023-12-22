@@ -1,5 +1,5 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv='X-UA-Compatible' content="IE=edge">
@@ -9,40 +9,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./img/logo.png">
     <title>Дербент</title>
 </head>
 <body>
-    <header class='header--fixed' align = 'center'>
-        <ul>
-            <li><a href="index.html"><b>Главная</b></a></li>
-            <li><a href="lider.html"><b>Места</b></a></li>
-        </ul>
-    </header>
-    <img src="./img/logo.png" id="logo">
-    <h1 id="h1"><b>Дербент</b></h1>
-    <h1 class="h1"><b> Город Дербент -</b></h1>
-    <div>
-        <p class="p">
-                древнейший из ныне существующих городов России, который был основан в 438 году н. э. <br>Он находится на самом юге нашей страны, в Республике Дагестан, на западном побережье Каспийского моря, недалеко от устья реки Самур.
-        </p>
-        <p id="par">
-            В Дербенте не мало красивых мест, где вы можете прогуляться со своими родными. <b style="color: blue;">На нашем сайте вы найдёте эти места и сможете узнать их расположения.</b>
-        </p>
-    </div>
-    <div>
-        <video src="./video/video derbent.mp4"class="video" controls autoplay muted loop></video>
-    </div>
-    <div>
-        <header id='header' class='header--fixed 'align = 'center'>
-            <ul id="ul">
-                <h2 id='h2' style="color: white;"><br>Связаться с нами</h2>
-                <li><a href='tel:+77777777777'  id="phone"> Наш телефон: +7(777)777-77-77</a></li>
-                <li><a href="mailto:slonic228@gmail.com"  id="mail">Наша почта: slonic228@gmail.com</a></li>
-            </ul>
+    <section class="wrap">
+        <header class='header'>
+               <a href="index.html"> <img src="./img/logo.png" class="logo"></a>
+                <nav class="nav">
+                    <ul class="nav-bar">
+                        <li><a href="index.html" class="link__nav"><b>Главная</b></a></li>
+                        <li><a href="lider.html" class="link__nav"><b>Путеводитель</b></a></li>
+                    </ul>
+                </nav>
         </header>
-    </div>
+        <h1 class="title"><b>Дербент</b></h1>
+    </section>
+
+    <main class="main">
+        <h2 class="subtitle"><b> Город Дербент -</b></h2>
+        <p class="description-subtitle">
+                древнейший из ныне существующих городов России, который был основан в 438 году н. э. <br>Он находится на самом юге нашей страны, в Республике Дагестан, на западном побережье Каспийского моря, недалеко от устья реки Самур.
+            <span class="description-main">В Дербенте не мало красивых мест, где вы можете прогуляться со своими родными. <b style="color: blue;">На нашем сайте вы найдёте эти места и сможете узнать их расположения.</b></span>
+        </p>
+        <div class="video_center">
+            <video class="video" controls autoplay muted loop>
+                <source src="./video/video derbent.mp4" type="video/mp4">
+            </video>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h2 class="footer-title">Связаться с нами</h2>
+        <ul class="contacts">
+            <li><a href='tel:+77777777777' id="phone"> Наш телефон: <span style="text-decoration: underline;">+7(777)777-77-77</span></a></li>
+            <li><a href="mailto:slonic228@gmail.com" id="mail">Наша почта: <span style="text-decoration: underline;">slonic228@gmail.com</span></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
