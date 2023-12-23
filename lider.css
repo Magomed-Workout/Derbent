@@ -4,6 +4,7 @@
 }
 
 body {
+    overflow: hidden scroll;
     background: radial-gradient(ellipse at bottom left,
     rgba(111, 0, 255, 0.4) 10%,
     rgba(88, 6, 165, 0) 40%),
@@ -16,7 +17,6 @@ body {
 
 a {
     font-size: 1rem;
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -67,10 +67,9 @@ ul {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1300px;
     gap: 100px;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 130px auto;
 }
 
 .container {
@@ -201,20 +200,17 @@ ul {
 }
 
 .footer {
-    margin-top: 50px;
     position: relative;
 	left: 0;
 	bottom: 0;
     width: 100vw;
     background: #000000;
     opacity: 0;
-    transform: translateY(20%);
     transition: 0.5s all ease-in-out
 }
 
 .footer.active {
     opacity: 1;
-    transform: translateY(0);
 }
 
 .footer-title {
@@ -236,6 +232,18 @@ ul {
 .contacts a:hover {
     color: aqua;
     transition: 0.3s all ease-in-out;
+}
+
+@media screen and (min-height: 1000px) {
+    .main {
+        margin: 200px auto;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .main {
+        max-width: 1200px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
