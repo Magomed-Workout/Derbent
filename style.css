@@ -9,7 +9,6 @@ body {
 
 a {
     font-size: 1rem;
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -117,11 +116,11 @@ ul {
     width: 55vw;
     height: 55vh;
     opacity: 0;
-    transform: translateY(20%);
+    transform: translateY(50%);
     transition: 0.5s all ease-in-out
 }
 
-.video.active, .footer.active {
+.video.active  {
     opacity: 1;
     transform: translateY(0);
 }
@@ -129,8 +128,11 @@ ul {
 .footer {
     background: #000000;
     opacity: 0;
-    transform: translateY(20%);
     transition: 0.5s all ease-in-out
+}
+
+.footer.active{
+    opacity: 1;
 }
 
 .footer-title {
