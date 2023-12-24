@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden scroll;
 }
 
 a {
@@ -22,6 +23,12 @@ ul {
     background-position: right 0px top -250px;
     height: 65vh;
     position: relative;
+    transform: scaleX(0);
+}
+
+.wrap.active {
+    transform: scaleX(1);
+    transition: 0.5s all ease-in-out;
 }
 
 .header {
@@ -69,7 +76,7 @@ ul {
     text-align: center;
     padding-top: 27vh;
     transform: scale(0);
-    transition: 0.5s all ease-in-out
+    transition: 0.8s all ease-in-out
 }
 
 .title.active {
@@ -149,6 +156,10 @@ ul {
     justify-content: center;
     padding-bottom: 40px;
     gap: 30px;
+}
+
+.contacts a {
+    color: #fff;
 }
 
 .contacts a:hover {
