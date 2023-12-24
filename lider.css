@@ -229,6 +229,10 @@ ul {
     gap: 30px;
 }
 
+.contacts a {
+    color: #fff;
+}
+
 .contacts a:hover {
     color: aqua;
     transition: 0.3s all ease-in-out;
