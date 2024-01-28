@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden scroll;
+}
+
+a {
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrap {
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: right 0px top -200px;
+    height: 70vh;
+    position: relative;
+    transform: scaleX(0);
+}
+
+.wrap.active {
+    transform: scaleX(1);
+    transition: 0.5s all ease-in-out;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 55px;
+    border-bottom: 1px solid #ccc;
+    opacity: 0;
+    transform: translateY(-10%);
+    z-index: 1;
+    transition: 0.5s all ease-in-out;
+}
+
+.header.active {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 25px;
+}
+
+.link__nav {
+    color: aqua;
+    transition: 0.3s all ease-in-out;
+}
+
+.link__nav5 {
+    color: chartreuse;
+    transition: 0.3s all ease-in-out;
+}
+
+.link__nav:hover, .link__nav5:hover {
+    color: #ff0000;
+}
+
+
+
+.main {
+    max-width: 1600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    transform: scale(0);
+    transition: 0.5s all ease-in-out
+}
+
+.title.active {
+    transform: scale(1);
+}
+
+.description {
+    font-size: 2rem;
+    line-height: 60px;
+    color: #000000;
+    opacity: 0;
+    transform: translateY(-20%);
+    transition: 0.5s all ease-in-out
+}
+
+.description.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.map {
+    margin: 50px auto;
+    max-width: 500px;
+}
+
+.video_center {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.video {
+    width: 55vw;
+    height: 55vh;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: 0.5s all ease-in-out
+}
+
+.video.active  {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footer {
+    background: #000000;
+    opacity: 0;
+    transition: 0.5s all ease-in-out
+}
+
+.footer.active{
+    opacity: 1;
+}
+
+.footer-title {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    gap: 30px;
+}
+
+.contacts a {
+    color: #fff;
+}
+
+.contacts a:hover {
+    color: aqua;
+    transition: 0.3s all ease-in-out;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .main {
+        max-width: 1300px;
+    }
+    
+    .video_center {
+        max-width: 900px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .wrap {
+        background-size: 110vw 100vh;
+        background-position: right -25px top -200px;
+    }
+
+    .video_center {
+        max-width: 700px;
+    }
+
+    .video {
+        width: 50vw;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .main {
+        text-align: center;
+        max-width: 1000px;
+    }
+
+    .description {
+        line-height: 70px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrap {
+        background-size: 130vw 100vh;
+        background-position: right -110px top -200px;
+    }
+
+    .main {
+        max-width: 800px;
+    }
+
+    .video_center {
+        max-width: 600px;
+    }
+
+    .video {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .wrap {
+        background-size: 150vw 100vh;
+        background-position: right -180px top -200px;
+    }
+
+    .main {
+        max-width: 800px;
+    }
+
+    .video {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .wrap {
+        background-size: 170vw 100vh;
+        background-position: right -240px top -200px;
+    }
+
+    .main {
+        max-width: 700px;
+    }
+
+    .title {
+        font-size: 2.7rem;
+    }
+
+    .description {
+        font-size: 1.5rem;
+    }
+
+    .map {
+        max-width: 370px;
+    }
+
+    iframe {
+        width: 370px!important;
+        height: 270px!important;
+    }
+
+    .video {
+        width: 75vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wrap {
+        background-size: 190vw 100vh;
+        background-position: right -280px top -200px;
+    }
+    
+    .main {
+        max-width: 600px;
+    }
+
+    .video {
+        width: 80vw;
+        height: 43vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrap {
+        background-size: 210vw 85vh;
+        background-position: right -290px top -150px;
+    }
+    
+    .main {
+        max-width: 400px;
+    }
+
+    .video {
+        width: 70vw;
+        height: 50vh;
+    }
+
+    .footer-title {
+        margin-bottom: 10px;
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrap {
+        background-size: 210vw 85vh;
+        background-position: right -240px top -75px;
+    }
+    
+    .main {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .video {
+        width: 75vw;
+        height: 40vh;
+    }
+    .map {
+        max-width: 330px;
+    }
+
+    iframe {
+        width: 330px!important;
+        height: 230px!important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .wrap {
+        background-size: 220vw 55vh;
+        background-position: right -205px top -75px;
+        height: 46vh;
+    }
+
+    .main {
+        max-width: 330px;
+    }
+
+    .title {
+        font-size: 2.7rem;
+    }
+
+    iframe {
+        width: 320px!important;
+        height: 220px!important;
+    }
+
+    .description {
+        font-size: 1rem;
+        line-height: 45px;
+    }
+
+    .video {
+        width: 80vw;
+        height: 35vh;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .wrap {
+        height: 90vh;
+        background-size: 120vw 130vh;
+        background-position: right -45px top -100px;
+    }
+
+    .video {
+        width: 75vw;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-height: 300px) {
+    .wrap {
+        height: 90vh;
+        background-size: 110vw 171vh;
+        background-position: right -45px top -100px;
+    }
+
+    .video {
+        width: 65vw;
+        height: 100vh;
+    }
+}
