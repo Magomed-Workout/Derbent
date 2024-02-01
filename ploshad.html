@@ -4,41 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv='X-UA-Compatible' content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='author' content="Керимов Магомед"> <!--Автор-->
     <meta name="description" content="Туристический сайт"> <!--Описание сайта-->
     <meta name='keywords' content="Туризм, туристы, Дербент"> <!--Ключевые слова-->
-    <link rel="stylesheet" href='navbar.css'>
-    <link rel="stylesheet" href='lider.css'>
-    <link rel="stylesheet" href="ploshad.css">
-    <link rel="icon" href="./img/logo.png">
+    <link rel="stylesheet" href="place.css">
+    <link rel="icon" href="img/logo.png">
     <title>Площадь Свободы</title>
-
 </head>
 <body>
-    <header class='header--fixed' align = 'center'>
-        <ul>
-            <li><a href="index.html"><b>Главная</b></a></li>
-            <li><a href="lider.html"><b>Места</b></a></li>
-        </ul>
-    </header>
-    <img src="./img/logo.png" id="logo">        
-    <div>
-        <header id='header' class='header--fixed' align = 'center'>
-            <ul id="ul">
-                <h2 id='h2' style="color: white;"><br>Связаться с нами</h2>
-                <li><a href='tel:+77777777777' id="phone"> Наш телефон: +7(777)777-77-77</a></li>
-                <li><a href="mailto:slonic228@gmail.com" id="mail">Наша почта: slonic228@gmail.com</a></li>
-            </ul>
+    <section class="wrap" style="background-image: url(./img/ploshad.jpg)">
+        <header class='header'>
+            <a href="index.html"> <img src="./img/logo.png" class="logo" loading="lazy"></a>
+            <nav class="nav">
+                <ul class="nav-bar">
+                    <li><a href="index.html" class="link__nav5"><b>Главная</b></a></li>
+                    <li><a href="lider.html" class="link__nav5"><b>Путеводитель</b></a></li>
+                </ul>
+            </nav>
+            <button style="opacity: 0; padding-right: 50px;">.</button>
         </header>
-    </div>
+    </section>
     
-    <div>
-        <h1 class="h1">Площадь Свободы</h1>
-        <p class="p">Плóщадь Свобóды — главная площадь Дербента. На площади проводятся различные мероприятия: <br>праздники, митинги, акции, военные парады, флешмобы и т. д.Площадь расположена в центре города. <br>Рядом расположены здание городской администрации, Мемориальный дом-музей А. А. Бестужева-Марлинского, парк Свободы.</p>
-    </div>
-    
-    <div>
-        <a href="https://yandex.ru/maps/11007/derbent/geo/ploshchad_svobody/1520638979/?from=tabbar&l=sat&ll=48.288535%2C42.057619&source=serp_navig&z=18"> <img src="./img/mapPL.png" alt="Карта" title="Нажми на меня" id="map"></a>
-    </div>
+    <main class="main">
+        <div>
+            <h1 class="title">Площадь Свободы</h1>
+            <p class="description">Плóщадь Свобóды — главная площадь Дербента. На площади проводятся различные мероприятия: <br>праздники, митинги, акции, военные парады, флешмобы и т. д.Площадь расположена в центре города. <br>Рядом расположены здание городской администрации, Мемориальный дом-музей А. А. Бестужева-Марлинского, парк Свободы.</p>
+        </div>
+        
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acf370a5c745fde5f75ca3e85c8114c59a7eeb752aa96461e8e5b755b3eeb8eac&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </main>
 
+    <footer class="footer">
+        <h2 class="footer-title">Связаться с нами</h2>
+        <ul class="contacts">
+            <li><a href='tel:+77777777777' id="phone"> Наш телефон: <span style="text-decoration: underline;">+7(777)777-77-77</span></a></li>
+            <li><a href="mailto:slonic228@gmail.com" id="mail">Наша почта: <span style="text-decoration: underline;">slonic228@gmail.com</span></a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
