@@ -65,16 +65,38 @@ ul {
     transition: 0.3s all ease-in-out;
 }
 
+.link__nav2 {
+    color: #ff0000;
+    transition: 0.3s all ease-in-out;
+}
+
+.link__nav2:hover, .link__nav4:hover {
+    color: aqua;
+}
+
+.link__nav3 {
+    color: #fbff00;
+    transition: 0.3s all ease-in-out;
+}
+
+.link__nav4 {
+    color: tomato;
+    transition: 0.3s all ease-in-out;
+}
+
 .link__nav5 {
+    color: #FFC480;
+    transition: 0.3s all ease-in-out;
+}
+
+.link__nav6 {
     color: chartreuse;
     transition: 0.3s all ease-in-out;
 }
 
-.link__nav:hover, .link__nav5:hover {
+.link__nav:hover, .link__nav3:hover, .link__nav5:hover {
     color: #ff0000;
 }
-
-
 
 .main {
     max-width: 1600px;
@@ -105,6 +127,35 @@ ul {
 }
 
 .description.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.monument {
+    width: 340px;
+    height: 388px;
+    padding: 40px;
+    opacity: 0;
+    transform: translateY(-20%);
+    transition: 0.5s all ease-in-out
+}
+
+.monument.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.description-monument {
+    font-size: 2rem;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    opacity: 0;
+    transform: translateY(-20%);
+    transition: 0.5s all ease-in-out
+}
+
+.description-monument.active {
     opacity: 1;
     transform: translateY(0);
 }
